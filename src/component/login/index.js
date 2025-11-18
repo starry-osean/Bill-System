@@ -1,4 +1,3 @@
-// 修改后的Login组件
 import { useState, useRef, useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { fetchLogin, fetchRegister } from "../../store/module/user";

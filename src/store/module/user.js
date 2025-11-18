@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit"
 import request from "../../utils/request.ts"; 
-
+import {loginApi} from '../../api/user.js'
 const useStore = createSlice({
     name: 'user', 
     initialState: {
@@ -19,7 +19,7 @@ const useStore = createSlice({
 
 const fetchLogin = (loginForm) => {
     return async (dispatch) => {
-        const res = await request.post('/authorizations', loginForm) 
+        const res = await loginApi(loginForm)
         //存token
         dispatch(setToken(res.data.token))
         localStorage.setItem('token_key',res.data.token)

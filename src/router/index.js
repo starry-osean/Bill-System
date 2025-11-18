@@ -1,10 +1,12 @@
-import User from '../component/User'
-import Layout from '../component/Layout'
-import Mouth from '../component/Mouth'
-import New from '../component/New'
-import Year from '../component/Year'
-import Login from '../component/login'
 import {createBrowserRouter} from 'react-router-dom'
+import { lazy, Suspense,AuthRoute } from 'react'
+//懒加载
+const Mouth=lazy(()=>import('../component/Mouth'))
+const New=lazy(()=>import('../component/New'))
+const User=lazy(()=>import('../component/User'))
+const Year=lazy(()=>import('../component/Year'))
+const Layout=lazy(()=>import('../component/Layout'))
+const Login=lazy(()=>import('../component/login'))
 const router=createBrowserRouter([
     {
         path:'/',
@@ -12,21 +14,21 @@ const router=createBrowserRouter([
          children:[
             {
                 path:'mouth',
-                element:<Mouth/>
+                element:<Suspense fallback={'加载中'}><Mouth/></Suspense>
             },{
                 path:'year',
-                element:<Year/>
+                element:<Suspense fallback={'加载中'}><Year/></Suspense>
             },{
                 path:'/user',
-                element:<User/>
+                element:<Suspense fallback={'加载中'}><User/></Suspense>
             }
         ]
     },{
         path:'/new',
-        element:<New/>
+        element:<Suspense fallback={'加载中'}><New/></Suspense>
     },{
         path:'/login',
-        element:<Login/>
+        element:<Suspense fallback={'加载中'}><Login/></Suspense>
     }
     ,{
         index: true,  // 默认路由
