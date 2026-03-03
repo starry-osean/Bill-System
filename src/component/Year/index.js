@@ -93,7 +93,7 @@ const Year = () => {
                 value: item.expense,
                 name: dayjs(item.month).format('MM月')
             }));
-
+            //构造月度支出的饼图数据
             const option = {
                 title: {
                     text: '月度支出分布',
@@ -124,7 +124,7 @@ const Year = () => {
                     }
                 ]
             };
-            //设置图表的配置项
+            //设置图表的配置项 setOption 渲染
             chartInstance.current.setOption(option);
 
             // 响应式调整

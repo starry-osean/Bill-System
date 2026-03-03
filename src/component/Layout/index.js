@@ -36,6 +36,10 @@ const Layout = () => {
       key:'/user',
       title:'个人',
       icon:<UserOutline />
+    },{
+      key:'/ai_analyse',
+      title:'AI分析',
+      icon:<CalculatorOutline />
     }
   ]
 

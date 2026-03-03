@@ -65,11 +65,995 @@
       "type": "expense"
     },
     {
-      "date": "2025-12-02",
+      "date": "2025-10-31",
+      "id": "9",
+      "money": -800,
+      "category": "房租",
+      "description": "10月房租",
+      "type": "expense"
+    },
+    {
+      "date": "2025-10-31",
       "id": "10",
+      "money": -120,
+      "category": "水电费",
+      "description": "水电煤缴费",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-01",
+      "id": "11",
+      "money": -25,
+      "category": "餐饮",
+      "description": "早餐包子",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-01",
+      "id": "12",
+      "money": -35,
+      "category": "餐饮",
+      "description": "午餐外卖",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-02",
+      "id": "13",
+      "money": -200,
+      "category": "购物",
+      "description": "购买日用品",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-02",
+      "id": "14",
+      "money": 800,
+      "category": "投资",
+      "description": "基金收益",
+      "type": "income"
+    },
+    {
+      "date": "2025-11-03",
+      "id": "15",
+      "money": -150,
+      "category": "娱乐",
+      "description": "KTV消费",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-03",
+      "id": "16",
+      "money": -60,
+      "category": "交通",
+      "description": "打车费用",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-04",
+      "id": "17",
+      "money": -300,
+      "category": "医疗",
+      "description": "体检费用",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-04",
+      "id": "18",
+      "money": -100,
+      "category": "通讯",
+      "description": "手机话费",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-05",
+      "id": "19",
+      "money": -50,
+      "category": "餐饮",
+      "description": "晚餐",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-05",
+      "id": "20",
+      "money": 200,
+      "category": "其他收入",
+      "description": "红包收入",
+      "type": "income"
+    },
+    {
+      "date": "2025-11-06",
+      "id": "21",
+      "money": -180,
+      "category": "购物",
+      "description": "购买书籍",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-06",
+      "id": "22",
+      "money": -70,
+      "category": "餐饮",
+      "description": "咖啡",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-07",
+      "id": "23",
+      "money": -400,
+      "category": "购物",
+      "description": "电子产品配件",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-07",
+      "id": "24",
+      "money": 1500,
+      "category": "兼职",
+      "description": "周末兼职",
+      "type": "income"
+    },
+    {
+      "date": "2025-11-08",
+      "id": "25",
+      "money": -120,
+      "category": "娱乐",
+      "description": "游戏充值",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-08",
+      "id": "26",
+      "money": -90,
+      "category": "交通",
+      "description": "公交卡充值",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-09",
+      "id": "27",
+      "money": -250,
+      "category": "购物",
+      "description": "衣服鞋子",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-09",
+      "id": "28",
+      "money": -40,
+      "category": "餐饮",
+      "description": "早餐",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-10",
+      "id": "29",
+      "money": 300,
+      "category": "奖金",
+      "description": "项目奖金",
+      "type": "income"
+    },
+    {
+      "date": "2025-11-10",
+      "id": "30",
+      "money": -60,
+      "category": "餐饮",
+      "description": "午餐",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-11",
+      "id": "31",
+      "money": -1200,
+      "category": "购物",
+      "description": "双十一购物",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-11",
+      "id": "32",
+      "money": -80,
+      "category": "餐饮",
+      "description": "晚餐",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-12",
+      "id": "33",
+      "money": -200,
+      "category": "医疗",
+      "description": "药品购买",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-12",
+      "id": "34",
+      "money": -50,
+      "category": "交通",
+      "description": "共享单车月卡",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-13",
+      "id": "35",
+      "money": -30,
+      "category": "餐饮",
+      "description": "早餐",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-13",
+      "id": "36",
+      "money": 400,
+      "category": "投资",
+      "description": "股票收益",
+      "type": "income"
+    },
+    {
+      "date": "2025-11-14",
+      "id": "37",
+      "money": -150,
+      "category": "娱乐",
+      "description": "电影票",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-14",
+      "id": "38",
+      "money": -60,
+      "category": "餐饮",
+      "description": "饮料零食",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-15",
+      "id": "39",
+      "money": -300,
+      "category": "购物",
+      "description": "生活用品",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-15",
+      "id": "40",
+      "money": -100,
+      "category": "通讯",
+      "description": "宽带费用",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-16",
+      "id": "41",
+      "money": -45,
+      "category": "餐饮",
+      "description": "午餐",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-16",
+      "id": "42",
+      "money": 500,
+      "category": "其他收入",
+      "description": "二手物品出售",
+      "type": "income"
+    },
+    {
+      "date": "2025-11-17",
+      "id": "43",
+      "money": -180,
+      "category": "交通",
+      "description": "加油费",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-17",
+      "id": "44",
+      "money": -90,
+      "category": "餐饮",
+      "description": "朋友聚餐",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-18",
+      "id": "45",
+      "money": -220,
+      "category": "医疗",
+      "description": "牙科检查",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-18",
+      "id": "46",
+      "money": 1200,
+      "category": "兼职",
+      "description": "设计稿费",
+      "type": "income"
+    },
+    {
+      "date": "2025-11-19",
+      "id": "47",
+      "money": -350,
+      "category": "购物",
+      "description": "冬季衣物",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-19",
+      "id": "48",
+      "money": -40,
+      "category": "餐饮",
+      "description": "早餐",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-20",
+      "id": "49",
+      "money": -75,
+      "category": "娱乐",
+      "description": "游乐场门票",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-20",
+      "id": "50",
+      "money": -55,
+      "category": "交通",
+      "description": "出租车费",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-21",
+      "id": "51",
+      "money": -120,
+      "category": "餐饮",
+      "description": "火锅",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-21",
+      "id": "52",
+      "money": 800,
+      "category": "投资",
+      "description": "理财产品收益",
+      "type": "income"
+    },
+    {
+      "date": "2025-11-22",
+      "id": "53",
+      "money": -90,
+      "category": "通讯",
+      "description": "国际长途",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-22",
+      "id": "54",
+      "money": -60,
+      "category": "餐饮",
+      "description": "午餐",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-23",
+      "id": "55",
+      "money": -280,
+      "category": "购物",
+      "description": "家用电器",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-23",
+      "id": "56",
+      "money": -30,
+      "category": "交通",
+      "description": "地铁",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-24",
+      "id": "57",
+      "money": -200,
+      "category": "医疗",
+      "description": "体检复查",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-24",
+      "id": "58",
+      "money": 450,
+      "category": "奖金",
+      "description": "全勤奖",
+      "type": "income"
+    },
+    {
+      "date": "2025-11-25",
+      "id": "59",
+      "money": -65,
+      "category": "餐饮",
+      "description": "晚餐",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-25",
+      "id": "60",
+      "money": -180,
+      "category": "娱乐",
+      "description": "演唱会门票",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-26",
+      "id": "61",
+      "money": -95,
+      "category": "交通",
+      "description": "打车",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-26",
+      "id": "62",
+      "money": 700,
+      "category": "其他收入",
+      "description": "稿费收入",
+      "type": "income"
+    },
+    {
+      "date": "2025-11-27",
+      "id": "63",
+      "money": -320,
+      "category": "购物",
+      "description": "电子产品",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-27",
+      "id": "64",
+      "money": -50,
+      "category": "餐饮",
+      "description": "早餐",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-28",
+      "id": "65",
+      "money": -110,
+      "category": "通讯",
+      "description": "电话费",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-28",
+      "id": "66",
+      "money": -40,
+      "category": "交通",
+      "description": "公交卡",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-29",
+      "id": "67",
+      "money": -150,
+      "category": "医疗",
+      "description": "药费",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-29",
+      "id": "68",
+      "money": 600,
+      "category": "兼职",
+      "description": "周末加班费",
+      "type": "income"
+    },
+    {
+      "date": "2025-11-30",
+      "id": "69",
+      "money": -800,
+      "category": "房租",
+      "description": "11月房租",
+      "type": "expense"
+    },
+    {
+      "date": "2025-11-30",
+      "id": "70",
+      "money": -130,
+      "category": "水电费",
+      "description": "水电煤缴费",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-01",
+      "id": "71",
+      "money": -30,
+      "category": "餐饮",
+      "description": "早餐",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-01",
+      "id": "72",
+      "money": 5000,
+      "category": "工资",
+      "description": "月度工资",
+      "type": "income"
+    },
+    {
+      "date": "2025-12-02",
+      "id": "73",
       "money": -60,
       "category": "餐饮",
       "description": "超市购物",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-02",
+      "id": "74",
+      "money": -200,
+      "category": "购物",
+      "description": "日用品",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-03",
+      "id": "75",
+      "money": -45,
+      "category": "餐饮",
+      "description": "午餐",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-03",
+      "id": "76",
+      "money": 900,
+      "category": "投资",
+      "description": "基金分红",
+      "type": "income"
+    },
+    {
+      "date": "2025-12-04",
+      "id": "77",
+      "money": -180,
+      "category": "娱乐",
+      "description": "桌游吧",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-04",
+      "id": "78",
+      "money": -70,
+      "category": "交通",
+      "description": "打车",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-05",
+      "id": "79",
+      "money": -250,
+      "category": "医疗",
+      "description": "眼科检查",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-05",
+      "id": "80",
+      "money": -95,
+      "category": "通讯",
+      "description": "手机套餐",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-06",
+      "id": "81",
+      "money": -55,
+      "category": "餐饮",
+      "description": "晚餐",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-06",
+      "id": "82",
+      "money": 300,
+      "category": "奖金",
+      "description": "绩效奖金",
+      "type": "income"
+    },
+    {
+      "date": "2025-12-07",
+      "id": "83",
+      "money": -220,
+      "category": "购物",
+      "description": "衣服",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-07",
+      "id": "84",
+      "money": -65,
+      "category": "餐饮",
+      "description": "早餐",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-08",
+      "id": "85",
+      "money": -120,
+      "category": "娱乐",
+      "description": "电影票",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-08",
+      "id": "86",
+      "money": 1500,
+      "category": "兼职",
+      "description": "设计项目",
+      "type": "income"
+    },
+    {
+      "date": "2025-12-09",
+      "id": "87",
+      "money": -85,
+      "category": "交通",
+      "description": "地铁充值",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-09",
+      "id": "88",
+      "money": -75,
+      "category": "餐饮",
+      "description": "午餐",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-10",
+      "id": "89",
+      "money": -310,
+      "category": "购物",
+      "description": "鞋子",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-10",
+      "id": "90",
+      "money": 400,
+      "category": "投资",
+      "description": "股票收益",
+      "type": "income"
+    },
+    {
+      "date": "2025-12-11",
+      "id": "91",
+      "money": -130,
+      "category": "医疗",
+      "description": "药品",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-11",
+      "id": "92",
+      "money": -45,
+      "category": "餐饮",
+      "description": "晚餐",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-12",
+      "id": "93",
+      "money": -280,
+      "category": "娱乐",
+      "description": "KTV",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-12",
+      "id": "94",
+      "money": -60,
+      "category": "交通",
+      "description": "出租车",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-13",
+      "id": "95",
+      "money": -190,
+      "category": "购物",
+      "description": "家居用品",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-13",
+      "id": "96",
+      "money": 550,
+      "category": "奖金",
+      "description": "年终奖预发",
+      "type": "income"
+    },
+    {
+      "date": "2025-12-14",
+      "id": "97",
+      "money": -70,
+      "category": "通讯",
+      "description": "话费充值",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-14",
+      "id": "98",
+      "money": -35,
+      "category": "餐饮",
+      "description": "早餐",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-15",
+      "id": "99",
+      "money": -220,
+      "category": "医疗",
+      "description": "检查费",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-15",
+      "id": "100",
+      "money": 1200,
+      "category": "兼职",
+      "description": "外快收入",
+      "type": "income"
+    },
+    {
+      "date": "2025-12-16",
+      "id": "101",
+      "money": -150,
+      "category": "购物",
+      "description": "书籍",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-16",
+      "id": "102",
+      "money": -50,
+      "category": "餐饮",
+      "description": "午餐",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-17",
+      "id": "103",
+      "money": -180,
+      "category": "娱乐",
+      "description": "游乐场",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-17",
+      "id": "104",
+      "money": -90,
+      "category": "交通",
+      "description": "加油",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-18",
+      "id": "105",
+      "money": -65,
+      "category": "餐饮",
+      "description": "晚餐",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-18",
+      "id": "106",
+      "money": 700,
+      "category": "投资",
+      "description": "理财收益",
+      "type": "income"
+    },
+    {
+      "date": "2025-12-19",
+      "id": "107",
+      "money": -140,
+      "category": "通讯",
+      "description": "宽带费",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-19",
+      "id": "108",
+      "money": -40,
+      "category": "交通",
+      "description": "公交",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-20",
+      "id": "109",
+      "money": -270,
+      "category": "购物",
+      "description": "电子产品",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-20",
+      "id": "110",
+      "money": 800,
+      "category": "奖金",
+      "description": "项目提成",
+      "type": "income"
+    },
+    {
+      "date": "2025-12-21",
+      "id": "111",
+      "money": -55,
+      "category": "餐饮",
+      "description": "早餐",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-21",
+      "id": "112",
+      "money": -160,
+      "category": "医疗",
+      "description": "药费",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-22",
+      "id": "113",
+      "money": -95,
+      "category": "娱乐",
+      "description": "游戏充值",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-22",
+      "id": "114",
+      "money": 450,
+      "category": "其他收入",
+      "description": "红包",
+      "type": "income"
+    },
+    {
+      "date": "2025-12-23",
+      "id": "115",
+      "money": -320,
+      "category": "购物",
+      "description": "新年礼物",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-23",
+      "id": "116",
+      "money": -45,
+      "category": "餐饮",
+      "description": "午餐",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-24",
+      "id": "117",
+      "money": -180,
+      "category": "娱乐",
+      "description": "圣诞活动",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-24",
+      "id": "118",
+      "money": -70,
+      "category": "交通",
+      "description": "打车",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-25",
+      "id": "119",
+      "money": -130,
+      "category": "餐饮",
+      "description": "圣诞大餐",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-25",
+      "id": "120",
+      "money": 600,
+      "category": "兼职",
+      "description": "节日加班费",
+      "type": "income"
+    },
+    {
+      "date": "2025-12-26",
+      "id": "121",
+      "money": -85,
+      "category": "通讯",
+      "description": "话费",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-26",
+      "id": "122",
+      "money": -200,
+      "category": "购物",
+      "description": "衣服",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-27",
+      "id": "123",
+      "money": -60,
+      "category": "餐饮",
+      "description": "早餐",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-27",
+      "id": "124",
+      "money": 900,
+      "category": "投资",
+      "description": "基金收益",
+      "type": "income"
+    },
+    {
+      "date": "2025-12-28",
+      "id": "125",
+      "money": -150,
+      "category": "医疗",
+      "description": "药费",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-28",
+      "id": "126",
+      "money": -40,
+      "category": "交通",
+      "description": "公交",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-29",
+      "id": "127",
+      "money": -290,
+      "category": "娱乐",
+      "description": "跨年活动",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-29",
+      "id": "128",
+      "money": 750,
+      "category": "奖金",
+      "description": "年终奖",
+      "type": "income"
+    },
+    {
+      "date": "2025-12-30",
+      "id": "129",
+      "money": -65,
+      "category": "餐饮",
+      "description": "晚餐",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-30",
+      "id": "130",
+      "money": -800,
+      "category": "房租",
+      "description": "12月房租",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-31",
+      "id": "131",
+      "money": -140,
+      "category": "水电费",
+      "description": "水电煤",
+      "type": "expense"
+    },
+    {
+      "date": "2025-12-31",
+      "id": "132",
+      "money": -120,
+      "category": "餐饮",
+      "description": "跨年晚餐",
       "type": "expense"
     },
     {
@@ -80,17 +1064,9 @@
       "useFor": "bonus"
     },
     {
-      "date": "2024-10-30",
-      "id": "8",
-      "money": -80,
-      "category": "医疗",
-      "description": "购买药品",
-      "type": "expense"
-    },
-    {
       "id": "5f0f",
       "type": "expense",
-      "money": 0,
+      "money": -20,
       "useFor": "drinks"
     },
     {
@@ -123,6 +1099,608 @@
       "type": "expense",
       "money": -50,
       "useFor": "drinks"
+    },
+    {
+      "id": "7cd6",
+      "type": "income",
+      "money": 3000,
+      "date": "2025-09-20T16:00:00.000Z",
+      "useFor": "overtimepay"
+    },
+    {
+      "id": "cabd",
+      "type": "expense",
+      "money": -30,
+      "date": "2024-09-20T16:00:00.000Z",
+      "useFor": "longdistance"
+    },
+    {
+      "id": "571e",
+      "type": "expense",
+      "money": -200,
+      "date": "2024-09-20T16:00:00.000Z",
+      "useFor": "drinks"
+    },
+    {
+      "id": "9c3d",
+      "type": "income",
+      "money": 2000,
+      "date": "2024-12-20T16:00:00.000Z",
+      "useFor": "financial"
+    },
+    {
+      "id": "a1b2",
+      "type": "expense",
+      "money": -150,
+      "date": "2024-10-15T16:00:00.000Z",
+      "useFor": "travel"
+    },
+    {
+      "id": "b2c3",
+      "type": "income",
+      "money": 500,
+      "date": "2024-11-05T16:00:00.000Z",
+      "useFor": "freelance"
+    },
+    {
+      "id": "c3d4",
+      "type": "expense",
+      "money": -80,
+      "date": "2024-08-12T16:00:00.000Z",
+      "useFor": "education"
+    },
+    {
+      "id": "d4e5",
+      "type": "income",
+      "money": 1500,
+      "date": "2024-07-25T16:00:00.000Z",
+      "useFor": "consulting"
+    },
+    {
+      "id": "e5f6",
+      "type": "expense",
+      "money": -40,
+      "date": "2024-06-18T16:00:00.000Z",
+      "useFor": "subscription"
+    },
+    {
+      "id": "f6g7",
+      "type": "income",
+      "money": 800,
+      "date": "2024-05-30T16:00:00.000Z",
+      "useFor": "dividends"
+    },
+    {
+      "id": "g7h8",
+      "type": "expense",
+      "money": -90,
+      "date": "2024-04-22T16:00:00.000Z",
+      "useFor": "fitness"
+    },
+    {
+      "id": "h8i9",
+      "type": "income",
+      "money": 1200,
+      "date": "2024-03-14T16:00:00.000Z",
+      "useFor": "royalties"
+    },
+    {
+      "id": "i9j0",
+      "type": "expense",
+      "money": -70,
+      "date": "2024-02-08T16:00:00.000Z",
+      "useFor": "software"
+    },
+    {
+      "id": "j0k1",
+      "type": "income",
+      "money": 2500,
+      "date": "2024-01-20T16:00:00.000Z",
+      "useFor": "contract"
+    },
+    {
+      "date": "2026-01-01",
+      "id": "133",
+      "money": -25,
+      "category": "餐饮",
+      "description": "早餐",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-01",
+      "id": "134",
+      "money": -150,
+      "category": "购物",
+      "description": "新年购物",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-02",
+      "id": "135",
+      "money": 5200,
+      "category": "工资",
+      "description": "1月工资",
+      "type": "income"
+    },
+    {
+      "date": "2026-01-02",
+      "id": "136",
+      "money": -60,
+      "category": "餐饮",
+      "description": "午餐",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-03",
+      "id": "137",
+      "money": -180,
+      "category": "交通",
+      "description": "地铁充值",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-03",
+      "id": "138",
+      "money": -45,
+      "category": "餐饮",
+      "description": "晚餐",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-04",
+      "id": "139",
+      "money": -300,
+      "category": "医疗",
+      "description": "体检",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-04",
+      "id": "140",
+      "money": 900,
+      "category": "投资",
+      "description": "基金收益",
+      "type": "income"
+    },
+    {
+      "date": "2026-01-05",
+      "id": "141",
+      "money": -200,
+      "category": "娱乐",
+      "description": "电影票",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-05",
+      "id": "142",
+      "money": -80,
+      "category": "餐饮",
+      "description": "早餐",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-06",
+      "id": "143",
+      "money": -350,
+      "category": "购物",
+      "description": "衣服",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-06",
+      "id": "144",
+      "money": 1500,
+      "category": "兼职",
+      "description": "设计项目",
+      "type": "income"
+    },
+    {
+      "date": "2026-01-07",
+      "id": "145",
+      "money": -120,
+      "category": "通讯",
+      "description": "话费",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-07",
+      "id": "146",
+      "money": -55,
+      "category": "餐饮",
+      "description": "午餐",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-08",
+      "id": "147",
+      "money": -220,
+      "category": "娱乐",
+      "description": "KTV",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-08",
+      "id": "148",
+      "money": -90,
+      "category": "交通",
+      "description": "出租车",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-09",
+      "id": "149",
+      "money": -130,
+      "category": "医疗",
+      "description": "药费",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-09",
+      "id": "150",
+      "money": 600,
+      "category": "奖金",
+      "description": "绩效奖金",
+      "type": "income"
+    },
+    {
+      "date": "2026-01-10",
+      "id": "151",
+      "money": -65,
+      "category": "餐饮",
+      "description": "晚餐",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-10",
+      "id": "152",
+      "money": -180,
+      "category": "购物",
+      "description": "日用品",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-11",
+      "id": "153",
+      "money": -95,
+      "category": "交通",
+      "description": "加油",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-11",
+      "id": "154",
+      "money": 800,
+      "category": "投资",
+      "description": "股票收益",
+      "type": "income"
+    },
+    {
+      "date": "2026-01-12",
+      "id": "155",
+      "money": -75,
+      "category": "餐饮",
+      "description": "早餐",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-12",
+      "id": "156",
+      "money": -250,
+      "category": "娱乐",
+      "description": "游乐场",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-13",
+      "id": "157",
+      "money": -140,
+      "category": "通讯",
+      "description": "宽带费",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-13",
+      "id": "158",
+      "money": 450,
+      "category": "其他收入",
+      "description": "红包",
+      "type": "income"
+    },
+    {
+      "date": "2026-01-14",
+      "id": "159",
+      "money": -40,
+      "category": "餐饮",
+      "description": "午餐",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-14",
+      "id": "160",
+      "money": -320,
+      "category": "购物",
+      "description": "电子产品",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-15",
+      "id": "161",
+      "money": -160,
+      "category": "医疗",
+      "description": "检查费",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-15",
+      "id": "162",
+      "money": 1200,
+      "category": "兼职",
+      "description": "外快收入",
+      "type": "income"
+    },
+    {
+      "date": "2026-01-16",
+      "id": "163",
+      "money": -85,
+      "category": "交通",
+      "description": "公交卡",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-16",
+      "id": "164",
+      "money": -60,
+      "category": "餐饮",
+      "description": "晚餐",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-17",
+      "id": "165",
+      "money": -290,
+      "category": "娱乐",
+      "description": "演唱会",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-17",
+      "id": "166",
+      "money": 700,
+      "category": "投资",
+      "description": "理财收益",
+      "type": "income"
+    },
+    {
+      "date": "2026-01-18",
+      "id": "167",
+      "money": -130,
+      "category": "购物",
+      "description": "书籍",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-18",
+      "id": "168",
+      "money": -50,
+      "category": "餐饮",
+      "description": "早餐",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-19",
+      "id": "169",
+      "money": -200,
+      "category": "通讯",
+      "description": "手机费",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-19",
+      "id": "170",
+      "money": 550,
+      "category": "奖金",
+      "description": "全勤奖",
+      "type": "income"
+    },
+    {
+      "date": "2026-01-20",
+      "id": "171",
+      "money": -45,
+      "category": "餐饮",
+      "description": "午餐",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-20",
+      "id": "172",
+      "money": -180,
+      "category": "交通",
+      "description": "打车",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-21",
+      "id": "173",
+      "money": -270,
+      "category": "购物",
+      "description": "家居用品",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-21",
+      "id": "174",
+      "money": 900,
+      "category": "兼职",
+      "description": "设计稿费",
+      "type": "income"
+    },
+    {
+      "date": "2026-01-22",
+      "id": "175",
+      "money": -110,
+      "category": "医疗",
+      "description": "药费",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-22",
+      "id": "176",
+      "money": -40,
+      "category": "餐饮",
+      "description": "晚餐",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-23",
+      "id": "177",
+      "money": -150,
+      "category": "娱乐",
+      "description": "游戏",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-23",
+      "id": "178",
+      "money": 400,
+      "category": "其他收入",
+      "description": "二手出售",
+      "type": "income"
+    },
+    {
+      "date": "2026-01-24",
+      "id": "179",
+      "money": -95,
+      "category": "交通",
+      "description": "地铁",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-24",
+      "id": "180",
+      "money": -220,
+      "category": "购物",
+      "description": "衣服",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-25",
+      "id": "181",
+      "money": -65,
+      "category": "餐饮",
+      "description": "早餐",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-25",
+      "id": "182",
+      "money": 800,
+      "category": "投资",
+      "description": "基金分红",
+      "type": "income"
+    },
+    {
+      "date": "2026-01-26",
+      "id": "183",
+      "money": -140,
+      "category": "通讯",
+      "description": "话费",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-26",
+      "id": "184",
+      "money": -75,
+      "category": "餐饮",
+      "description": "午餐",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-27",
+      "id": "185",
+      "money": -300,
+      "category": "娱乐",
+      "description": "音乐会",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-27",
+      "id": "186",
+      "money": 600,
+      "category": "奖金",
+      "description": "项目提成",
+      "type": "income"
+    },
+    {
+      "date": "2026-01-28",
+      "id": "187",
+      "money": -90,
+      "category": "交通",
+      "description": "加油",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-28",
+      "id": "188",
+      "money": -50,
+      "category": "餐饮",
+      "description": "晚餐",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-29",
+      "id": "189",
+      "money": -190,
+      "category": "购物",
+      "description": "日用品",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-29",
+      "id": "190",
+      "money": 750,
+      "category": "兼职",
+      "description": "周末兼职",
+      "type": "income"
+    },
+    {
+      "date": "2026-01-30",
+      "id": "191",
+      "money": -130,
+      "category": "医疗",
+      "description": "检查",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-30",
+      "id": "192",
+      "money": -45,
+      "category": "餐饮",
+      "description": "早餐",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-31",
+      "id": "193",
+      "money": -800,
+      "category": "房租",
+      "description": "1月房租",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-31",
+      "id": "194",
+      "money": -150,
+      "category": "水电费",
+      "description": "水电煤",
+      "type": "expense"
+    },
+    {
+      "date": "2026-01-31",
+      "id": "195",
+      "money": -120,
+      "category": "餐饮",
+      "description": "晚餐",
+      "type": "expense"
     }
   ],
   "summary": {
@@ -167,12 +1745,12 @@
     "last_updated": "2022-11-02",
     "version": "1.0"
   },
-  "userInfo":[
+  "userInfo": [
     {
-    "id":"1",
-    "birth":"2025-11-16",
-    "email":"111",
-    "text":"哈哈哈哈哈哈哈哈"
-  }
+      "id": "1",
+      "birth": "2025-11-16",
+      "email": "111",
+      "text": "哈哈哈哈哈哈哈哈"
+    }
   ]
 }

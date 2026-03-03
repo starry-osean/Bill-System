@@ -1,123 +1,215 @@
-.user-container {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-  font-family: 'Arial', sans-serif;
+.user-page {
+  padding: 28px;
+  background: linear-gradient(135deg, #eef2ff, #f8fbff);
+  min-height: 100vh;
+  font-family: 'PingFang SC', 'Segoe UI', sans-serif;
 
-  .user-header {
+  .panel {
+    background: #fff;
+    border-radius: 20px;
+    padding: 24px;
+    box-shadow: 0 18px 30px rgba(87, 107, 149, 0.12);
+    margin-bottom: 24px;
+  }
+
+  .hero-card {
     display: flex;
     align-items: center;
-    gap: 16px;
-    margin-bottom: 30px;
-    padding: 20px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    gap: 24px;
+    background: linear-gradient(120deg, #5d9fff, #5f2cff);
+    color: #fff;
+    position: relative;
+    overflow: hidden;
 
-    img {
-      width: 60px;
-      height: 60px;
+    &:before {
+      content: '';
+      position: absolute;
+      width: 220px;
+      height: 220px;
+      background: rgba(255, 255, 255, 0.12);
       border-radius: 50%;
-      border: 3px solid rgba(255, 255, 255, 0.3);
-      object-fit: cover;
+      top: -80px;
+      right: -60px;
     }
 
-    p {
-      margin: 0;
-      font-size: 1.5rem;
-      font-weight: 600;
-      color: white;
-      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    }
-  }
-
-  .user-info {
-    background: #ffffff;
-    border-radius: 12px;
-    padding: 24px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
-
-    .no-info {
-      text-align: center;
-      color: #666;
-      font-size: 1.1rem;
-      padding: 40px 20px;
-    }
-
-    .user-list {
-      display: grid;
-      gap: 20px;
-
-      .user-item {
-        padding: 20px;
-        border: 1px solid #e1e5e9;
-        border-radius: 8px;
-        background: #f8f9fa;
-        transition: all 0.3s ease;
-
-        &:hover {
-          transform: translateY(-2px);
-          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-          border-color: #667eea;
-        }
-
-        p {
-          margin: 8px 0;
-          font-size: 1rem;
-          color: #333;
-
-          &:first-child {
-            font-weight: 600;
-            color: #667eea;
-          }
-
-          &:last-child {
-            color: #666;
-          }
-        }
-      }
-    }
-  }
-}
-@media (max-width: 768px) {
-  .user-container {
-    padding: 15px;
-
-    .user-header {
-      padding: 15px;
-      flex-direction: column;
-      text-align: center;
-      gap: 12px;
+    .avatar {
+      width: 90px;
+      height: 90px;
+      border-radius: 24px;
+      background: rgba(255, 255, 255, 0.15);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
 
       img {
-        width: 50px;
-        height: 50px;
+        width: 64px;
+        height: 64px;
+        border-radius: 18px;
+      }
+    }
+
+    .hero-content {
+      h1 {
+        margin: 0 0 8px;
+        font-size: 2rem;
       }
 
       p {
-        font-size: 1.3rem;
+        margin: 0 0 16px;
+        opacity: 0.85;
       }
-    }
 
-    .user-info {
-      padding: 16px;
+      .hero-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
 
-      .user-list {
-        .user-item {
-          padding: 16px;
-          
-          p {
-            font-size: 0.95rem;
-          }
+        span {
+          padding: 6px 14px;
+          border-radius: 999px;
+          background: rgba(255, 255, 255, 0.2);
+          font-size: 0.85rem;
         }
       }
     }
   }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+
+    .stat-card {
+      background: #f7f9ff;
+      border-radius: 16px;
+      padding: 16px 18px;
+      border: 1px solid rgba(93, 159, 255, 0.18);
+
+      .label {
+        margin: 0;
+        color: #7486b8;
+        font-size: 0.9rem;
+      }
+
+      .value {
+        margin: 12px 0 6px;
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: #192648;
+      }
+
+      span {
+        color: #9aa6c9;
+        font-size: 0.85rem;
+      }
+    }
+  }
+
+  .info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+
+    .info-card {
+      padding: 18px;
+      border-radius: 18px;
+      border: 1px solid #eef0ff;
+      background: linear-gradient(140deg, #fff, #f6f8ff);
+
+      h3 {
+        margin: 0 0 8px;
+        font-size: 1rem;
+        color: #5c6ac4;
+      }
+
+      p {
+        margin: 0;
+        font-size: 1.2rem;
+        color: #1f2a44;
+        min-height: 48px;
+      }
+    }
+  }
+
+  .member-list {
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+
+      h2 {
+        margin: 0;
+        font-size: 1.2rem;
+      }
+
+      span {
+        color: #8f9ab4;
+        font-size: 0.9rem;
+      }
+    }
+
+    .member-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+    }
+
+    .member-card {
+      border: 1px solid #eef0ff;
+      border-radius: 18px;
+      padding: 18px;
+      background: #fbfcff;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .member-meta {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.95rem;
+        color: #2d3550;
+
+        strong {
+          font-weight: 600;
+          color: #5b6ac8;
+        }
+      }
+
+      .member-note {
+        strong {
+          display: block;
+          margin-bottom: 4px;
+          color: #5b6ac8;
+        }
+        p {
+          margin: 0;
+          color: #4b4f63;
+          line-height: 1.5;
+        }
+      }
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 60px 20px;
+      color: #8d96b5;
+    }
+  }
 }
 
-.loading {
-  text-align: center;
-  color: #667eea;
-  font-size: 1.1rem;
-  padding: 40px;
+@media (max-width: 768px) {
+  .user-page {
+    padding: 18px;
+
+    .hero-card {
+      flex-direction: column;
+      text-align: center;
+
+      .hero-tags {
+        justify-content: center;
+      }
+    }
+  }
 }

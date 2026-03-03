@@ -7,6 +7,7 @@ const User=lazy(()=>import('../component/User'))
 const Year=lazy(()=>import('../component/Year'))
 const Layout=lazy(()=>import('../component/Layout'))
 const Login=lazy(()=>import('../component/login'))
+const AiAnalyse=lazy(()=>import('../component/ai_analyse'))
 const router=createBrowserRouter([
     {
         path:'/',
@@ -21,6 +22,9 @@ const router=createBrowserRouter([
             },{
                 path:'/user',
                 element:<Suspense fallback={'加载中'}><User/></Suspense>
+            },{
+                path:'/ai_analyse',
+                element:<Suspense fallback={'加载中'}><AiAnalyse/></Suspense>
             }
         ]
     },{
